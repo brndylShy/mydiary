@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #ebe9ea;
+    /* Light background for the whole page */
+    color: #1b1b18;
+
+    /* Text color */
+    display: flex;
+    padding: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.box1 {
+    background: linear-gradient(to bottom, #e092f748, #f796cf47);
+    width: 70%;
+    height: 85vh;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.TextMain h1 {
+    font-size: 60px;
+    font-family: 'Lucida';
+    color: rgb(74, 29, 117);
+    font-weight: bolder;
+}
+
+.TextMain p {
+    font-size: 25px;
+    font-family: 'Lucida';
+    color: rgb(74, 29, 117);
+
+}
+
+.WCbtn {
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* From Uiverse.io by adamgiebl */
+button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0.8em 1.3em 0.8em 0.9em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(to right, #2e113b, #302b63, #24243e);
+    border: none;
+    letter-spacing: 0.05em;
+    border-radius: 16px;
+}
+
+button svg {
+    margin-right: 3px;
+    transform: rotate(30deg);
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button span {
+    transition: transform 0.5s cubic-bezier(0.76, 0, 0.24, 1);
+}
+
+button:hover svg {
+    transform: translateX(5px) rotate(90deg);
+}
+
+button:hover span {
+    transform: translateX(7px);
+}
+
+.WcBtmText p {
+    font-size: 20px;
+    color: rgb(111, 79, 109);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+
+.WcBtmText i {
+    color: rgb(111, 79, 109);
+}
+
+.WcBtmText {
+    margin-top: 100px;
+}
+
+.diaryText {
+    font-family: 'Lucida';
+    color: rgb(24, 11, 37);
+    font-weight: bolder;
+    font-size: 30px;
+}
